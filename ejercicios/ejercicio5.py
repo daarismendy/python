@@ -122,5 +122,5 @@ def pRepet(palabra):
         
         
 palabras=funcion("perro come perro pero no come perro")
-print(f"las palabras son {palabras}")
+print(f"las palabras son {palabras} y paalabras seran")
 call=pRepet(palabras)
