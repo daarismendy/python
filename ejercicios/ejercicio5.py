@@ -114,13 +114,13 @@ def funcion(frase):
 def pRepet(palabra):
     valor=0
     for i in palabras:
-        if valor<palabras[i]:
+        if valor<=palabras[i]:
             valor=palabras[i]
-            llave=i
+            valor[]=i
             
     print(f"la palabra mas repetida es {llave} valor {valor} ")
         
         
 palabras=funcion("perro come perro pero no come perro")
-print(palabras)
+print(f"las palabras son {palabras}")
 call=pRepet(palabras)
