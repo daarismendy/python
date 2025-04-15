@@ -1,0 +1,6 @@
+hola: 5
+mundo: 3
+camion: 54
+python: 7
+programación: 2
+perro: 25
